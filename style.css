@@ -1,0 +1,46 @@
+ul.a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align:center;
+    background-color: #333;
+    font-size:100%;
+    table-layout:fixed;
+    word-wrap: break-word;
+}
+
+  
+li a.active{
+    display: block;
+    color: white;
+    padding: 05px 40px;
+    text-decoration: none;
+    float: left;
+    font-size:100%;
+    table-layout:fixed;
+    word-wrap:break-word;
+}
+
+li a.active:hover {
+    background-color: #111;
+}
+
+div {
+
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding-left:15%;
+    padding-right:15%;
+    font-size:100%;
+
+}
+
+h1{text-align:center}
+
+h2{text-align:center}
+
+img{
+    display:block;
+    margin: 0 auto;
+}    
