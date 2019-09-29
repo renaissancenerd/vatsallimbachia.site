@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vatsal Limbachia's Webpage</title>
+<link rel="stylesheet" href="style.css">
+
+<h1>Vatsal Limbachia&#39;s Homepage</h1>
+
+<ul class="a">
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a class="active" href="about.html">About</a></li>
+  <li><a class="active" href="contact.html">Contact</a></li>
+  <li><a class="active" href="https://renaissancenerd.github.io">Software
+Webpage</a></li>
+  <li><a class="active"
+href="writings.html">Writings/Papers</a></li>
+  <li><a class="active" href="https://github.com/renaissancenerd">Github</a></li>
+  <li><a class="active" href="sundry.html">Sundry</a></li>
+</ul>
+</head>
+
+<script type="text/javascript">
+  var imageURLs = [
+       "math-on-chalkboard.jpg",
+       "EllCurve.gif",
+       
+  ];
+  function getImageTag() {
+    var img = '<img src=\"imgs/';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"\" class=\"a\">';
+    return img;
+  }
+</script>
+
+<body>
+<div>
+<script type="text/javascript">
+  document.write(getImageTag());
+</script>
+<br>
+
+</div>
+</body>
+</html>
